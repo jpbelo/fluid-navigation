@@ -12,7 +12,7 @@ options for delay and animation duration:
 <div class="hideMe" data-hidemedelay="300" data-hidemetime="100"></div>
 ```
 
-sks
+sks<br>
 al
 
 kska
