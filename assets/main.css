@@ -1,0 +1,34 @@
+@import url('reset.css');
+
+
+
+
+
+/*NEEDED*/
+.hideMe					{ opacity:0; transform:translate(0, 50px); transition:transform .3s ease-out; }
+
+
+
+
+
+/*JUST FOR THE EXEMPLE*/
+* 	{ font-family:Verdana; font-weight:normal; line-height:1.5; }
+
+header 						{ width:100%; text-align:center; background-color:yellow; padding:50px 0; }
+header>h1 						{ margin-bottom:20px; font-size:20px; }
+header>ul 						{  }
+header>ul>li 						{ display:inline-block; padding:5px 20px; }
+header>ul>li:hover 					{ text-decoration:underline; }
+header>ul>li>a 							{ color:black; }
+
+
+#contentWrapper h1 			{ margin:100px auto 50px; text-align:center; }
+
+#contentWrapper>div			{ background-color:purple; width:90%; max-width:900px; margin:50px auto; text-align:center; padding:100px; }
+#contentWrapper>div>h2 			{ color:white; }
+
+
+#exemplesWrap>div			 { width:28%; margin:2%; height:100px; vertical-align:top; display:inline-block; background-color:white; text-align:center; }
+#exemplesWrap>div:before 		{ content:''; display:inline-block; height:100%; vertical-align:middle; margin-right:-.29em; }
+#exemplesWrap>div>*				{ display:inline-block; vertical-align:middle; width:100%;}
+
