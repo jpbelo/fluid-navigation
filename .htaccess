@@ -1,3 +1,4 @@
+# All requests go to index.php
 Options +FollowSymLinks
 RewriteEngine on
 
