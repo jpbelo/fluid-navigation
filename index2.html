@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="assets/css/main.css">
+	<title>Fluid Navigation</title>
+    <script src="assets/libs/jquery.min.js"></script>
+</head>
+<body>
+
+	<header>
+
+	 		<h1>fluid navigation</h1>
+
+			<ul id="mainMenu">
+				<li><a class="pageLink" href="index.html">link 1</a></li>
+				<li><a class="pageLink" href="index2.html">link 2</a></li>
+				<li><a class="pageLink" href="index3.html">link 3</a></li>
+			</ul>
+
+	</header>
+
+
+	<div id="contentWrapper">
+
+
+		<h1>Page transitions</h1>
+
+		<div class="hideMe" data-hideme-delay="100">
+			<h2>use "pageLink" class on links to animate page transitions.<br><br>
+			elements inside the #contentWrapper div will leave before the page changes and enter after page loads.<br><br>
+			"pageLink" will work on any element as long as it has the "href" attribute for the page</h2>
+		</div>
+
+
+		<h1>Show on scroll</h1>
+
+		<div class="hideMe"><h2>elements with the "hideMe" class will wait hidden until scrolling shows their top</h2></div>
+
+		<div class="hideMe" id="exemplesWrap">
+			<h2>time delay in ms</h2>
+			<p>data-hideme-delay<br>
+			default value: 0</p>
+			<div class="hideMe"><p>no delay</p></div>
+			<div class="hideMe" data-hideme-delay="500"><p>data-hideme-delay="500"</p></div>
+			<div class="hideMe" data-hideme-delay="1200"><p>data-hideme-delay="1200"</p></div>
+		</div>
+
+
+		<div class="hideMe" id="exemplesWrap">
+			<h2>position delay in px<br>(how many pixels of the element are inside the viewport before the element is shown)</h2>
+			<p>data-hideme-y<br>
+			default value: 100</p>
+			<div class="hideMe"><p>default</p></div>
+			<div class="hideMe" data-hideme-y="250"><p>data-hideme-y="250"</p></div>
+			<div class="hideMe" data-hideme-y="500"><p>data-hideme-y="500"</p></div>
+		</div>
+
+
+		<div class="hideMe" id="exemplesWrap">
+			<h2>transition duration in ms</h2>
+			<p>data-hideme-time<br>
+			default value: 350</p>
+			<div class="hideMe"><p>default</p></div>
+			<div class="hideMe" data-hideme-time="500"><p>data-hideme-time="500"</p></div>
+			<div class="hideMe" data-hideme-time="1200"><p>data-hideme-time="1200"</p></div>
+		</div>
+
+
+		<div class="hideMe" id="exemplesWrap">
+			<h2>transition duration in ms</h2>
+			<p>data-hideme-time<br>
+			default value: 350</p>
+			<div class="hideMe"><p>default</p></div>
+			<div class="hideMe" data-hideme-time="500"><p>data-hideme-time="500"</p></div>
+			<div class="hideMe" data-hideme-time="1200"><p>data-hideme-time="1200"</p></div>
+		</div>
+
+
+		<div class="hideMe" id="exemplesWrap">
+			<h2>combinations</h2>
+			<div class="hideMe" data-hideme-time="1" data-hideme-y="250"><p>data-hideme-time="1"<br>data-hideme-y="250"</p></div>
+			<div class="hideMe" data-hideme-time="500" data-hideme-delay="200"><p>data-hideme-time="500"<br>data-hideme-delay="200"</p></div>
+			<div class="hideMe" data-hideme-time="1200" data-hideme-y="50"><p>data-hideme-time="1200"<br>data-hideme-y="50"</p></div>
+		</div>
+
+
+		<div class="hideMe" id="exemplesWrap">
+			...
+		</div>
+		<div class="hideMe" id="exemplesWrap">
+			...
+		</div>
+
+
+	</div>
+
+
+
+    <script src="assets/libs/jquery.transit.min.js"></script>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
