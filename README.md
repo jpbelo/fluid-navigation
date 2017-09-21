@@ -8,5 +8,5 @@ Elements with class ``hideMe`` are hidden until scroll position animates to ente
 options for time delay, position and animation duration:
 
 ```html
-<div class="hideMe" data-hidemedelay="300" data-hidemetime="100"></div>
+<div class="hideMe" data-hideme-delay="300" data-hideme-y="300" data-hideme-time="100"></div>
 ```
